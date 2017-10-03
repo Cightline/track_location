@@ -40,7 +40,7 @@ def store_location():
     #return json.dumps([{'type_':'cmd', 'action':'reportLocation'}]) , 200
 
 
-    # {'_type': 'location', 'tid': 'ra', 'acc': 23, 'batt': 92, 'conn': 'm', 'lat': 33.0040529, 'lon': -96.9905623, 't': 'u', 'tst': 1507065015, '_cp': True}
+    # {'_type': 'location', 'tid': 'ra', 'acc': 23, 'batt': 92, 'conn': 'm', 'lat': 32, 'lon': -96, 't': 'u', 'tst': 1507065015, '_cp': True}
 
     return json.dumps({}), 200
 
